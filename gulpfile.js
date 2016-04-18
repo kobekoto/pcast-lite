@@ -93,7 +93,7 @@ gulp.task('sass', function() {
     ]
   }));
 
-  var minifycss = $.if(isProduction, $.minifyCss());
+  var cssnano = $.if(isProduction, $.cssnano());
 
   return gulp.src('src/assets/scss/app.scss')
     .pipe($.sourcemaps.init())
@@ -105,7 +105,7 @@ gulp.task('sass', function() {
       browsers: COMPATIBILITY
     }))
     .pipe(uncss)
-    .pipe(minifycss)
+    .pipe(cssnano)
     .pipe($.if(!isProduction, $.sourcemaps.write()))
     .pipe(gulp.dest('dist/assets/css'))
     .pipe(browser.reload({ stream: true }));
