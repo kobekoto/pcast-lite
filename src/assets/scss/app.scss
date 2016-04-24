@@ -385,9 +385,20 @@ nav {
 	        }
 	    }
 	}
-
-    // ******  General Styles ******
-
-
 }
+    // ******  EPISODE PAGE STYLES ******
+
+
+.episode-page {
+  .guest-description {
+    text-align: center;
+    font-size: 0.97em;
+    margin-bottom: 20px;
+    @include breakpoint(medium) {
+      font-size: 2em;
+    }
+  }
+}
+
+
 
