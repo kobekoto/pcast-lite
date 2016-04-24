@@ -398,7 +398,21 @@ nav {
       font-size: 2em;
     }
   }
+  .social-icons-section {
+    border-top: 1px solid rgba(0,0,0,0.13);
+  }  
 }
 
+.episode-info-section {
+  border-top: 1px solid rgba(0,0,0,0.13);
+}
 
+.episode-info-section, .episode-guest-info {
+  padding: 20px;
+}
 
+.show-notes {
+  .strong-time {
+    font-weight: bold;
+  }
+}
