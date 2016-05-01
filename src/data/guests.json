@@ -1,78 +1,77 @@
-
- 	[
-		{
-			"type": "episodes",
-			"id": "1",
-			"name": "Episode One",
-			"guest": "Guest One", 
-			"guest_avatar": "assets/img/user1.png", 
-			"guest-description": "The first guest of the episode is Guest One.",
-			"soundcloud_url": "blah-blah",
-			"episode_info": "Episode info lorem block ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"twitter_url": "http://twitter.com/",
-			"show_notes": [
-				{"note": "Note 1", "time": "00:00"},
-				{"note": "Note 2", "time": "01:00"},
-				{"note": "Note 3", "time": "02:00"},
-				{"note": "Note 4", "time": "03:00"},
-				{"note": "Note 5", "time": "04:00"}
-			],
-			"mentions": [
-				{"mention": "Mention 1", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 2", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 3", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 4", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 5", "mention_url": "http://www.example.org"}
-			]		
-		},
-		{
-			"type": "episodes",
-			"id": "2",
-			"name": "Episode Two",
-			"guest": "Guest Two", 
-			"guest_avatar": "assets/img/user2.png", 
-			"guest-description": "The guest of the episode is Guest Two.",
-			"soundcloud_url": "blah-blah",
-			"episode_info": "Episode info lorem block ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"twitter_url": "http://twitter.com/",
-			"show_notes": [
-				{"note": "Note 1", "time": "00:00"},
-				{"note": "Note 2", "time": "01:00"},
-				{"note": "Note 3", "time": "02:00"},
-				{"note": "Note 4", "time": "03:00"},
-				{"note": "Note 5", "time": "04:00"}
-			],
-			"mentions": [
-				{"mention": "Mention 1", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 2", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 3", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 4", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 5", "mention_url": "http://www.example.org"}
-			]		
-		},
-		{
-			"type": "episodes",
-			"id": "3",
-			"name": "Episode Three",
-			"guest": "Guest Three", 
-			"guest_avatar": "assets/img/user3.png", 
-			"guest-description": "The first guest of the episode is Guest Three.",
-			"soundcloud_url": "blah-blah",
-			"episode_info": "Episode info lorem block ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"twitter_url": "http://twitter.com/",
-			"show_notes": [
-				{"note": "Note 1", "time": "00:00"},
-				{"note": "Note 2", "time": "01:00"},
-				{"note": "Note 3", "time": "02:00"},
-				{"note": "Note 4", "time": "03:00"},
-				{"note": "Note 5", "time": "04:00"}
-			],
-			"mentions": [
-				{"mention": "Mention 1", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 2", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 3", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 4", "mention_url": "http://www.example.org"},
-				{"mention": "Mention 5", "mention_url": "http://www.example.org"}
-			]		
-		}
-	]
+[	
+	{
+		"type": "episodes",
+		"id": "1",
+		"name": "Episode One",
+		"guest": "Guest One", 
+		"guest_avatar": "assets/img/user1.png", 
+		"guest-description": "The first guest of the episode is Guest One.",
+		"soundcloud_url": "blah-blah",
+		"episode_info": "Episode info lorem block ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"twitter_url": "http://twitter.com/",
+		"show_notes": [
+			{"note": "Note 1", "time": "00:00"},
+			{"note": "Note 2", "time": "01:00"},
+			{"note": "Note 3", "time": "02:00"},
+			{"note": "Note 4", "time": "03:00"},
+			{"note": "Note 5", "time": "04:00"}
+		],
+		"mentions": [
+			{"mention": "Mention 1", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 2", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 3", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 4", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 5", "mention_url": "http://www.example.org"}
+		]		
+	},
+	{
+		"type": "episodes",
+		"id": "2",
+		"name": "Episode Two",
+		"guest": "Guest Two", 
+		"guest_avatar": "assets/img/user2.png", 
+		"guest-description": "The guest of the episode is Guest Two.",
+		"soundcloud_url": "blah-blah",
+		"episode_info": "Episode info lorem block ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"twitter_url": "http://twitter.com/",
+		"show_notes": [
+			{"note": "Note 1", "time": "00:00"},
+			{"note": "Note 2", "time": "01:00"},
+			{"note": "Note 3", "time": "02:00"},
+			{"note": "Note 4", "time": "03:00"},
+			{"note": "Note 5", "time": "04:00"}
+		],
+		"mentions": [
+			{"mention": "Mention 1", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 2", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 3", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 4", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 5", "mention_url": "http://www.example.org"}
+		]		
+	},
+	{
+		"type": "episodes",
+		"id": "3",
+		"name": "Episode Three",
+		"guest": "Guest Three", 
+		"guest_avatar": "assets/img/user3.png", 
+		"guest-description": "The first guest of the episode is Guest Three.",
+		"soundcloud_url": "blah-blah",
+		"episode_info": "Episode info lorem block ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"twitter_url": "http://twitter.com/",
+		"show_notes": [
+			{"note": "Note 1", "time": "00:00"},
+			{"note": "Note 2", "time": "01:00"},
+			{"note": "Note 3", "time": "02:00"},
+			{"note": "Note 4", "time": "03:00"},
+			{"note": "Note 5", "time": "04:00"}
+		],
+		"mentions": [
+			{"mention": "Mention 1", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 2", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 3", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 4", "mention_url": "http://www.example.org"},
+			{"mention": "Mention 5", "mention_url": "http://www.example.org"}
+		]		
+	}
+]

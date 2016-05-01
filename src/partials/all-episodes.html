@@ -1,11 +1,10 @@
 {{#each guests }}
- {{#each this}}
 <div class="row">
   <div class="episodes">
     <a href="#" class="small-12 medium-6 large-4 columns">
       <div class="episode-content">
         <div class="episode-stuff">
-            <img src="assets/img/user.png">
+            <img src="{{guest_avatar}}">
         </div>
         <div class="episode-block">
           <span class="episode-number">{{ name }} </span>
@@ -15,5 +14,4 @@
     </a>   
   </div>
 </div>
-  {{/each}}
 {{/each}}
