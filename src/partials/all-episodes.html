@@ -1,0 +1,19 @@
+{{#each guests }}
+ {{#each this}}
+<div class="row">
+  <div class="episodes">
+    <a href="#" class="small-12 medium-6 large-4 columns">
+      <div class="episode-content">
+        <div class="episode-stuff">
+            <img src="assets/img/user.png">
+        </div>
+        <div class="episode-block">
+          <span class="episode-number">{{ name }} </span>
+          <span class="episode-title">{{ guest }}</span>
+        </div>
+      </div>
+    </a>   
+  </div>
+</div>
+  {{/each}}
+{{/each}}
